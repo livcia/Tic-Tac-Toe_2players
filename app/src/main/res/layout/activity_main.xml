@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/zwyklynapis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:text="Aktualny ruch: "
+        android:textSize="35sp" />
+    <TextView
+        android:id="@+id/zmiennanapis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/zwyklynapis"
+        android:text=""
+        android:textSize="35sp"
+        android:layout_alignBottom="@+id/zwyklynapis"/>
+
+    <Button
+        android:id="@+id/b5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:width="90dp"
+        android:height="90dp"
+        android:onClick="wypelnij5"
+        android:textSize="50sp"/>
+
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/b5"
+        android:layout_toLeftOf="@+id/b5"
+        android:width="90dp"
+        android:height="90dp"
+        android:onClick="wypelnij4"
+        android:textSize="50sp"/>
+
+    <Button
+        android:id="@+id/b6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/b5"
+        android:layout_toRightOf="@+id/b5"
+        android:width="90dp"
+        android:height="90dp"
+        android:onClick="wypelnij6"
+        android:textSize="50sp"/>
+
+    <Button
+        android:id="@+id/b9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/b6"
+        android:layout_alignRight="@+id/b6"
+        android:width="90dp"
+        android:height="90dp"
+        android:onClick="wypelnij9"
+        android:textSize="50sp"/>
+
+    <Button
+        android:id="@+id/b8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/b5"
+        android:layout_alignRight="@+id/b5"
+        android:width="90dp"
+        android:height="90dp"
+        android:onClick="wypelnij8"
+        android:textSize="50sp"/>
+
+    <Button
+        android:id="@+id/b7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/b4"
+        android:layout_alignRight="@+id/b4"
+        android:width="90dp"
+        android:height="90dp"
+        android:onClick="wypelnij7"
+        android:textSize="50sp"/>
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/b4"
+        android:layout_alignRight="@+id/b4"
+        android:width="90dp"
+        android:height="90dp"
+        android:onClick="wypelnij1"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/b5"
+        android:layout_alignRight="@+id/b5"
+        android:width="90dp"
+        android:height="90dp"
+        android:onClick="wypelnij2"
+        android:textSize="50sp"/>
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/b6"
+        android:layout_alignRight="@+id/b6"
+        android:width="90dp"
+        android:height="90dp"
+        android:onClick="wypelnij3"
+        android:textSize="50sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginBottom="90dp"
+        android:onClick="restart"
+        android:text="Reset" />
+
+</RelativeLayout>

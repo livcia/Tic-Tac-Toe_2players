@@ -1,5 +1,3 @@
-Here is the suggested content for the README file for your Tic-Tac-Toe_2players repository:
-
 ```markdown
 # Tic-Tac-Toe 2 Players
 

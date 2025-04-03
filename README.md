@@ -1,4 +1,3 @@
-```markdown
 # Tic-Tac-Toe 2 Players
 
 ## Description
